@@ -1,0 +1,53 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 11439628,
+  "description": "",
+  "download_checksums": {
+    "/home/yoon/Desktop/SKKU/NLP/MSummarizer_modified/OLDS/process/raw_data/dialogsum.train.json": {
+      "num_bytes": 11944411,
+      "checksum": "68e96aefd614006a6caba95ab3a845a1fffd2162848e90c7ab6cc5233f51eb53"
+    }
+  },
+  "download_size": 11944411,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "dialogue": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "summary": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 23384039,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 11439628,
+      "num_examples": 12460,
+      "dataset_name": "json"
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": {
+    "version_str": "0.0.0",
+    "description": null,
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

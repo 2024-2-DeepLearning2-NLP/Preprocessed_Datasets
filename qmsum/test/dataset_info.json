@@ -1,0 +1,66 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 14169455,
+  "description": "",
+  "download_checksums": {
+    "/content/drive/MyDrive/NLP (\u1100\u1161\u110b\u1163)/Project/Data/raw_data/qmsum.train.jsonl": {
+      "num_bytes": 11940700,
+      "checksum": null
+    },
+    "/content/drive/MyDrive/NLP (\u1100\u1161\u110b\u1163)/Project/Data/raw_data/qmsum.val.jsonl": {
+      "num_bytes": 2714748,
+      "checksum": null
+    },
+    "/content/drive/MyDrive/NLP (\u1100\u1161\u110b\u1163)/Project/Data/raw_data/qmsum.test.jsonl": {
+      "num_bytes": 2746108,
+      "checksum": null
+    }
+  },
+  "download_size": 17401556,
+  "features": {
+    "dialogue": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "summary": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 31571011,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 9729171,
+      "num_examples": 162,
+      "dataset_name": "json"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 2211241,
+      "num_examples": 35,
+      "dataset_name": "json"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 2229043,
+      "num_examples": 35,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
